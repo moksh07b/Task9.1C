@@ -1,0 +1,107 @@
+body{
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.post-header h3, .Title-input h3{
+  background-color: rgb(228, 219, 219);
+  margin-top: 0px;
+  padding: 7px;
+  margin-bottom: 10px;
+  font-size: larger;
+}
+.post-header{
+  padding: 0px;
+  padding-bottom: 10px;
+}
+
+.post-header div{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.post-header p{
+  margin: 0px 10px;
+}
+
+.post-header label{
+  font-size: larger;
+  vertical-align: middle;
+  margin: 0px;
+}
+
+.post-header input{
+  margin-left: 40px;
+}
+
+.Title-input div{
+  display: flex;
+  align-items: center;
+}
+
+.Title-input input{
+  width: 90%;
+  height: 20px;
+  padding: 10px;
+}
+
+.input_file_post{
+  margin-top: 10px;
+}
+
+.input_file_post input{
+  width: 70%;
+}
+
+
+.Title-input div h4{
+  margin: 0px 10px;
+  font-weight: bold;
+}
+
+.question-body textarea{
+  width: 95%;
+  height: 500px;
+  
+}
+
+.tag{
+  display: flex;
+  align-items: center;
+}
+
+.tag input{
+  margin: 20px;
+  width: 90%;
+  padding: 10px;
+}
+
+.question-body{
+  margin-left: 10px;
+}
+
+.article-body-post, .tag{
+  margin-left: 10px;
+}
+
+.article-body-post h4, .question-body h4{
+  margin-bottom: 5px;
+}
+
+.article-abstract textarea{
+  width: 95%;
+  height: 100px;
+}
+
+.article-text textarea{
+  width: 95%;
+  height: 350px;
+}
+
+.post-button button{
+  padding: 10px 60px;
+  float: right;
+  margin-right: 5%;
+}
